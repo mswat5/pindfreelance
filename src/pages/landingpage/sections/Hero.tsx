@@ -1,4 +1,3 @@
-import React from "react";
 import marketplaceImage from "../../../assets/marketplace.jpg";
 
 const Hero = () => {
