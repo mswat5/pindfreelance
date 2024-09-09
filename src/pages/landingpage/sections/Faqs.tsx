@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 
 const faqData = [
@@ -6,7 +6,9 @@ const faqData = [
     question: "What is the purpose of this platform?",
     answer: (
       <p>
-        Our platform empowers freelancers by connecting them with a diverse range of short-term jobs and gig work, utilizing blockchain for secure transactions and AI for personalized job matching.
+        Our platform empowers freelancers by connecting them with a diverse
+        range of short-term jobs and gig work, utilizing blockchain for secure
+        transactions and AI for personalized job matching.
       </p>
     ),
   },
@@ -14,7 +16,9 @@ const faqData = [
     question: "How does the payment system work?",
     answer: (
       <p>
-        We implement a secure escrow system using blockchain technology, ensuring that payments are safe and transparent for both freelancers and clients.
+        We implement a secure escrow system using blockchain technology,
+        ensuring that payments are safe and transparent for both freelancers and
+        clients.
       </p>
     ),
   },
@@ -22,7 +26,9 @@ const faqData = [
     question: "What types of jobs can I find?",
     answer: (
       <p>
-        Freelancers can find various opportunities, including gig work, project-based jobs, and specialized roles tailored to both rural and urban markets.
+        Freelancers can find various opportunities, including gig work,
+        project-based jobs, and specialized roles tailored to both rural and
+        urban markets.
       </p>
     ),
   },
@@ -30,7 +36,9 @@ const faqData = [
     question: "How does AI assist in job matching?",
     answer: (
       <p>
-        Our AI algorithms analyze user profiles, skills, and preferences to provide tailored job recommendations, enhancing the job search experience.
+        Our AI algorithms analyze user profiles, skills, and preferences to
+        provide tailored job recommendations, enhancing the job search
+        experience.
       </p>
     ),
   },
@@ -38,7 +46,8 @@ const faqData = [
     question: "Is this platform accessible in rural areas?",
     answer: (
       <p>
-        Yes, we are committed to connecting freelancers in both urban and rural areas, promoting local economies and job opportunities.
+        Yes, we are committed to connecting freelancers in both urban and rural
+        areas, promoting local economies and job opportunities.
       </p>
     ),
   },
@@ -47,7 +56,7 @@ const faqData = [
 function Faqs() {
   const [activeIndex, setActiveIndex] = useState(null);
 
-  const toggleAccordion = (index) => {
+  const toggleAccordion = (index: any) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
 

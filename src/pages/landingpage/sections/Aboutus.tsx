@@ -1,4 +1,3 @@
-import React from "react";
 import marketplaceImg from "../../../assets/marketplace.jpg";
 
 const About = () => {

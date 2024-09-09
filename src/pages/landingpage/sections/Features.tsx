@@ -1,5 +1,5 @@
-import React from "react";
-import { Shield, Globe, HeartPulse, Layers } from "lucide-react"; // Example icons
+
+import { Shield, Globe, HeartPulse, Layers } from "lucide-react";
 
 const featuresData = [
   {
