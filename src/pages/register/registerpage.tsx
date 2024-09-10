@@ -8,7 +8,7 @@ const Registerpage = () => {
   const navigate = useNavigate();
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2">
-      <div className="bg-gradient-to-r from-indigo-300 via-white to-pink-300">
+      <div className="bg-gradient-to-b from-orange-300  ">
         <div className="pt-4 pl-4">
           <ModeToggle />
         </div>
